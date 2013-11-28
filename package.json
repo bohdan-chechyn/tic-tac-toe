@@ -1,6 +1,6 @@
 {
   "name": "application-name",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -12,5 +12,9 @@
     "primus": "~1.4.6",
     "ws": "~0.4.31",
     "underscore": "~1.5.2"
+  },
+  "subdomain": "bohdan.chechin-tictac",
+  "engines": {
+    "node": "0.10.x"
   }
 }
