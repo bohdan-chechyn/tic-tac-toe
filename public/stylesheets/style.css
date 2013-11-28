@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#board td {
+    border: 1px solid grey;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+}
+#board td:hover {
+    cursor: pointer;
+    background-color: peru;
+}
+.myTurn #board td:hover {
+    background-color: ivory;
+}
+.gameEndedWin #board td {
+    background-color: skyblue;
+}
+.gameEndedLose #board td {
+    background-color: peru;
+}
+#status {
+    margin-top: 30px;
+}
